@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places in India</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #333;
+            padding: 15px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            max-width: 800px;
+            margin: auto;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: blue;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+        .place {
+            background: #f5f5f5;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .place img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .place p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .place a {
+            display: inline-block;
+            margin-top: 5px;
+            padding: 5px 10px;
+            background: blue;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .place a:hover {
+            background: darkblue;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="services.html">Services</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="place">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.pC84z9BMsVRz5BH_DAZUvQHaFS&pid=Api&P=0&h=220" alt="Taj Mahal">
+            <p>The Taj Mahal, a symbol of love, was built by Emperor Shah Jahan in memory of his wife Mumtaz.</p>
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+        <div class="place">
+            <img src="https://static.toiimg.com/photo/53438383/.jpg" alt="Red Fort">
+            <p>The Red Fort in Delhi was the main residence of Mughal emperors and a symbol of India's history.</p>
+            <a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+        <div class="place">
+            <img src="https://imgcld.yatra.com/ytimages/image/upload/v1434452465/Jallianwala_Bagh.jpg" alt="Jallianwala Bagh">
+            <p>Qutub Minar is the world's tallest brick minaret, built in the 12th century by Qutb-ud-din Aibak.</p>
+            <a href="https://en.wikipedia.org/wiki/Qutb_Minar" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+        <div class="place">
+            <img src="https://wallpaperaccess.com/full/4850858.jpg" alt="Gateway of India">
+            <p>The Gateway of India in Mumbai was built to commemorate the visit of King George V and Queen Mary.</p>
+            <a href="https://en.wikipedia.org/wiki/Gateway_of_India" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+        <div class="place">
+            <img src="https://cdn.britannica.com/25/242225-050-72142DF7/Front-facade-of-Palace-of-the-Winds-Hawa-Mahal-Jaipur-Rajasthan-India.jpg" alt="Hawa Mahal">
+            <p>Hawa Mahal in Jaipur, known as the "Palace of Winds," was designed for royal women to observe street life.</p>
+            <a href="https://en.wikipedia.org/wiki/Hawa_Mahal" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+        <div class="place">
+            <img src="https://blogs.revv.co.in/blogs/wp-content/uploads/2020/05/meenakshi-temple-in-Madurai.jpg" alt="Meenakshi Temple">
+            <p>Meenakshi Temple in Madurai is dedicated to Goddess Meenakshi and Lord Sundareswarar.</p>
+            <a href="https://en.wikipedia.org/wiki/Meenakshi_Temple" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+        <div class="place">
+            <img src="http://2.bp.blogspot.com/-FbmS1C8keyU/UqyKlsD3dkI/AAAAAAAAA-g/AeCHxrSifao/s1600/Amer+fort+with+lake.jpg" alt="Amer Fort">
+            <p>Amer Fort in Jaipur showcases Rajput architecture and is famous for its artistic Hindu-style elements.</p>
+            <a href="https://en.wikipedia.org/wiki/Amber_Fort" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+        <div class="place">
+            <img src="https://wallpaperaccess.com/full/8548945.jpg" alt="Mysore Palace">
+            <p>Mysore Palace, a royal residence in Karnataka, is famous for its grandeur and Indo-Saracenic architecture.</p>
+            <a href="https://en.wikipedia.org/wiki/Mysore_Palace" target="_blank" rel="noopener noreferrer">Learn More</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Historical Places in India. All rights reserved.</p>
+        <p>Follow us on: <a href="#" style="color: lightblue;">Facebook</a> | <a href="#" style="color: lightblue;">Twitter</a> | <a href="#" style="color: lightblue;">Instagram</a></p>
+    </footer>
+
+</body>
+</html>
